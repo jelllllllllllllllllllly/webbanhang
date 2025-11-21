@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Chính</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: red;
+      color: white;
+    }
+
+    /* Thanh điều hướng */
+    .navbar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      background: red;;
+      padding: 20px 10px;
+      font-size: 28px;
+      font-weight: bold;
+      
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 15px;
+      border-radius: 6px;
+      transition: 0.2s;
+    }
+
+    .navbar a:hover {
+      background: white;
+      color: red;
+    }
+
+    /* Responsive cho mobile */
+    @media (max-width: 600px) {
+      .navbar {
+        flex-direction: column;
+        gap: 15px;
+        font-size: 22px;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="navbar">
+    <a href="trangchu2.html" target="kq">Trang chủ</a>
+    <a href="gioithieuvechungtoi.html" target="kq">Giới thiệu</a>
+    <a href="sanpham (1).html" target="kq">Sản phẩm</a>
+    <a href="Lienhe.html" target="kq">Liên lạc</a>
+    <a href="giohang.html" target="kq">Giỏ hàng</a>
+    <a href="taikhoan.html" target="kq">Tài khoản</a>
+  </div>
+
+</body>
+
+</html>
